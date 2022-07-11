@@ -96,12 +96,15 @@ body{
 
 .about-us h2{
 
-
 }
+
+
+
+
 
 /*---------------------------------------------Our-services*/
 
-#our-services{
+/*#our-services{
     height: 600px;
 }
 
@@ -130,4 +133,6 @@ body{
     margin: 0 auto;
     background-color: forestgreen;
 
-}
+} ---/*
+
+
