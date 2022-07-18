@@ -1,50 +1,140 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Cheezebo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="styles.css">
 
-  </head>
-  <body>
-    
-    
-    <nav class="navbar bg-light fixed-top">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">Cheezebo</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-            <div class="offcanvas-header">
-              <h3 class="offcanvas-title" id="offcanvasNavbarLabel">Cheezebo</h3>
-              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="ourcheese.html">Our Cheese</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contactus.html">Contact Us</a>
-                  </li>
-                
-              </ul>
-              
-            </div>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://kit.fontawesome.com/4d9ba9b512.js" crossorigin="anonymous"></script>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <title>Cheezebo</title>
+
+</head>
+
+<body>
+
+  <header>
+<!--------------------------------------------------------------------------------------------nav-bar------->
+
+
+    <nav class="navbar bg-dark fixed-top navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Cheezebo</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Cheezebo</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active " aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="ourcheese.html">Our Cheeses</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contactus.html">Contact Us</a>
+              </li>
+            </ul>
           </div>
         </div>
-      </nav>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+      </div>
+    </nav>
 
-<h1>Cheezbo</h1>
-<p>
-    fkdjfiodjfaiodjifajdijfijdiosa
-</p>
+  </header>
 
-  </body>
+
+
+
+  <section>
+    <!---------------------------------------------------------------------------------form-enquiry-->
+
+    <div class="contact-image"></div>
+
+    <br>
+
+    <div class="contact-img-text">
+      <h2>Thank you for your interest!</h2>
+
+      <h4>Please complete the form below to help us with your enquiry.</h4>
+    </div>
+
+
+
+
+    <div class="contact-us-form">
+
+      <form method="post" action="https://formdump.codeinstitute.net">
+
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" class="form-input" name="first_name" required>
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" class="form-input" name="last_name" required>
+
+        <label for="email">Email Address</label>
+        <input type="email" id="Email" class="form-input" name="email-address" required>
+
+        <p>Type of Event</p>
+
+        <label for="wedding">Wedding</label>
+        <input type="radio" id="wedding" name="event-type" value="wedding" required>
+
+        <label for="birthday">Birthday</label>
+        <input type="radio" id="birthday" name="event-type" value="birthday">
+
+        <label for="other">Other</label>
+        <input type="radio" id="other" name="event-type" value="other">
+
+        <br>
+
+
+        <label for="event-info" id="textarea-label">Please supply other revelant information to help us ie Number of
+          guests, date required.</label><br>
+
+        <textarea rows="5" cols="37" name="event-info" id="event-info-box" required></textarea>
+
+        <input class="btn btn-primary" type="submit" value="Submit">
+
+      </form>
+
+    </div>
+
+
+
+
+  </section>
+
+
+
+
+
+<!------------------------------------------------------------------------------------footer logo and socials-->
+  <footer>
+    <div class="footer-bottom">
+      <div class="logo-footer-text">
+        <h2>Cheezebo</h2>
+
+      </div>
+
+      <ul class="social-networks">
+
+        <li><a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+        <li><a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+        <li><a href="https://www.pinterest.com" target="_blank"><i class="fa-brands fa-pinterest"></i></a></li>
+
+      </ul>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

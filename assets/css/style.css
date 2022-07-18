@@ -1,102 +1,364 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,600;1,700&family=Merriweather:ital,wght@0,400;0,700;1,400&family=Oswald:wght@300&family=Raleway:ital,wght@0,700;1,500&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Kanit:ital,wght@1,600;1,700&family=Merriweather:ital,wght@0,400;0,700;1,400&family=Oswald:wght@300&family=Raleway:ital,wght@0,700;1,500&family=Roboto&display=swap');
 
 
 
-body{
+body {
     background-color: #F5F5F5;
 }
 
 /*---------------------------------------------Nav-Bar*/
 
+.navbar-nav .nav-link.active {
+    color: rgb(232, 248, 10);
+}
 
-
-.navbar-toggler{
+.navbar-toggler {
     background-color: rgb(247, 172, 11);
-}
 
-.navbar-toggler:hover{
-    background-color:rgb(232, 248, 10);
 
 }
+
+.navbar-toggler:hover {
+    background-color: rgb(232, 248, 10);
+
+}
+
+
+.nav-link:hover {
+    color: rgb(232, 248, 10);
+}
+
 
 
 .navbar-brand {
     color: rgb(247, 172, 11);
-    font-family: kanit, sans-serif;
-    font-size: 30px;
-    font-style: italic;
+    font-family: Bangers, sans-serif;
+    font-size: 48px;
+    font-weight: 400;
     text-align: center;
-    
+
 }
 
-.navbar-brand:hover{
+.navbar-brand:hover {
     color: rgb(232, 248, 10);
 }
 
-.nav-link{
-    color:rgb(247, 172, 11);
+
+.nav-link {
+    color: rgb(247, 172, 11);
+}
+
+#offcanvasNavbarLabel {
+    color: rgb(247, 172, 11);
+    font-family: Bangers, sans-serif;
+    font-size: 40px;
+
+}
+
+#offcanvasNavbar {
+    background-color: #000000;
 }
 
 
-
 /*---------------------------------------------Hero image*/
-#hero-image{
+#hero-image {
 
-    background-image: url('../images/variouscheese.webp');
+    background-image: url('../images/cheese-counter.webp');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
     width: 100%;
-    opacity: 0.7;
-
-}
-
-
-
-
-#hero-cover-text{
-    color:#000000;
-    font-family: raleway, sans-serif;
-    letter-spacing: 4px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    margin-right: 5px;
-    margin-left: 5px;
+    display:flex;
     
-    height: 150px;
-
-    padding-top: 20px;
-    
-    border-radius: 25%;
-
-    background-color:rgba(247, 172, 11, 0.7);
-
-    bottom: 60%;
-    width: fit-content;
-    
-    position: absolute;
 }
 
-#hero-cover-text h1{
-    font-family: Kanit;
+
+.hero-text {
+    max-width: 75%;
+    background-color: rgba(247, 172, 11, 0.7);
+   
+   
+
+    
 }
 
+
+
+
+.hero-text h1 {
+    font-family: Bangers, Raleway, sans-serif;
+    font-size: 75px;
+}
+
+.hero-text h2 {
+    font-family: Raleway, sans-serif;
+    font-weight: 600;
+}
 
 /*---------------------------------------------About-Us*/
 
-.about-us{
+.about-us {
     font-family: raleway;
     font-size: medium;
     text-align: center;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 15%;
+    margin-right: 15%;
 
 }
 
 
-.about-us h2{
+.about-us h1 {
+    padding-top: 35px;
+    color: rgb(247, 172, 11);
+
 
 }
+
+
+
 
 /*---------------------------------------------Our-services*/
 
+.col-sm-4 a h2 {
+    text-align: center;
+    color: rgb(247, 172, 11);
+
+}
+
+.col-sm-4 {
+    padding-top: 35px;
+}
+
+.col-sm-4 a {
+    text-decoration: none;
+}
+
+.img-thumbnail {
+    padding: 10px;
+}
+
+
+/*---------------------------------------------Testimonials*/
+
+
+.testimonials-heading {
+    text-align: center;
+    padding-top: 40px;
+    font-family: raleway;
+    font-weight: 500;
+}
+
+.blockquote p {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+    font-size: small;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+/*---------------------------------------------footer*/
+
+
+
+.footer-bottom {
+
+    margin: auto;
+    width: 100%;
+    background-color: #000000;
+    bottom: 0;
+    left: 0;
+    position: relative;
+    min-height: 100%;
+
+}
+
+.logo-footer-text h2 {
+    color: rgb(247, 172, 11);
+    font-family: Bangers, sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.social-networks {
+    text-align: center;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.social-networks li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: rgb(247, 172, 11);
+}
+
+
+
+
+/*---------------------------------------------our-cheese-page--hero-image*/
+
+
+
+#ourcheese-bg-img {
+    background: url("../images/waldemar-brandt-kPqaqug998Y-unsplash (1).webp") no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+
+
+}
+
+/*---------------------------------------------our-cheese-page--main-cheese*/
+
+.hero-cover {
+    padding-top: 20px;
+}
+
+.hero-cover-text {
+    height: 150px;
+    margin: auto;
+    background-color: rgba(247, 172, 11, 0.7);
+    text-align: center;
+    padding-top: 20px;
+}
+
+.hero-cover-text h1 {
+    font-family: Bangers, sans-serif;
+    font-size: 40px;
+}
+
+.cheese-thumbnail img {
+    float: right;
+    margin-right: 10%;
+    text-align: left;
+    margin-left: 10%;
+    width: 170px;
+    border-style: ridge;
+
+}
+
+.cheese-thumbnail {
+    margin: 10%;
+}
+
+
+.cheese-brie-cont p {
+    font-size: small;
+}
+
+.cheese-intro-text {
+    font-family: raleway;
+    font-size: medium;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+
+}
+
+.cheese-intro-text h1 {
+    padding-top: 35px;
+    color: rgb(247, 172, 11);
+
+}
+
+
+/*---------------------------------------------form*/
+
+
+
+.contact-image {
+    background-image: url("/assets/images/enquiry-fireworksimage.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    opacity: 1;
+
+}
+
+.contact-img-text {
+
+    height: 150px;
+    margin: auto;
+    background-color: rgba(247, 172, 11, 0.7);
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+
+
+.contact-us-form {
+
+    font-family: raleway, sans-serif;
+    padding: 30px 20px 30px 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+
+
+.form-input {
+
+    color: black;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid black;
+    border-radius: 2px;
+
+}
+
+.btn {
+
+    background-color: rgb(247, 172, 11);
+    border: rgb(247, 172, 11);
+    color: #000000;
+    margin: auto;
+    display: block;
+}
+
+#event-info-box {
+    clear: right;
+    margin: auto;
+}
+
+#textarea-label {
+
+    padding-top: 20px;
+    margin-top: 25px;
+}
+
+input[type="radio"] {
+    margin: 0 5px 0 5px;
+}
+
+input[type="text"] {
+    margin-left: 10px;
+
+
+}
+
+input[type="email"] {
+    margin-left: 10px;
+}
+
+
+form p {
+    margin-top: 25px;
+}
