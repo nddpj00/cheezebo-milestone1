@@ -1,5 +1,10 @@
 # Cheezebo
 
+
+<h2 align="center"><img src="images-readme/cheezebo-mock-ups.webp"></h2>
+
+[View the project here.](https://nddpj00.github.io/cheezebo-milestone1/)
+
 This website was created to  promote an provide information about Cheezebo.  Cheezebo is a business idea offering a catering service which can be hired for special occasions such as weddings and birthdays.
 
 Cheezebo will set up their gazebo at your event location, provide the finest cheese and offer advice and knowledge about their produce.
@@ -39,3 +44,42 @@ Designed for wedding organisers and party planners to find information of Cheeze
 - __The Contact Us Page__
 
   - This page will allow the user to get in touch with Cheezbo. This could be to gain availability on event dates or to request a quote. The user will be asked to submit their full name, email address and type of event (later via radio buttons). There is also a textarea provided to allow further information.
+
+
+## User Experience (UX)
+
+-   ### User stories
+
+    -   #### First Time Visitor Goals
+
+        1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
+        2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
+        3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are
+	4. As a First Time Visitor, I want to be able to easily contact the organisation to enquire futher.
+
+    -   #### Returning Visitor Goals
+
+        1. As a Returning Visitor, I want to find information about updates on produce and services.
+        2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
+        3. As a Returning Visitor, I want to find social links.
+
+    -   #### Frequent User Goals
+        1. As a Frequent User, I want to check to see if there are any newly added testimonials from recent customers.
+        2. As a Frequent User, I want to check to see if there are any new products offered.
+        3. As a Frequent User, I want to contact the organisation with any further queries I may have.
+
+-   ### Design
+    -   #### Colour Scheme
+  -   The two main colours used are Black and Yellow/Orange rgba (247, 172, 11).
+    -   #### Typography
+        -   The Bangers font is used for the name of the company ‘Cheezebo’ which is in part its logo too.  Its used as a comic style font which helps bring a fun, modern feel to the company. The majority of the remaining font used is Raleway which compliments well with the comic style Bangers. Sans-serif is added as the back-up font in case Bangers or Raleway isnt supported.
+    -   #### Imagery
+        -   Large background hero images are used to allow users to quickly understand they’ve reached a cheese catering company and to offer an idea of the large variety that can be supplied.
+
+*   ### Wireframes
+
+    -   Home Page Wireframe – ("/images-readme/wireframe-indexhtml-homepage.webp")
+
+    -   Our Cheese page Wireframe - ( /images-readme/wireframe-ourcheese.webp)
+
+    -   Contact Us Page Wireframe – ( /images-readme/wireframe-contactus.webp)
