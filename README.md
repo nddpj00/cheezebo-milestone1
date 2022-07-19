@@ -148,7 +148,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   #### Returning Visitor Goals
 
-        1. As a Frequent User, I want to check to see if there are any newly added testimonials from recent customers.
+    1. As a Frequent User, I want to check to see if there are any newly added testimonials from recent customers.
 
         1. These are clearly shown under the labelled ‘testimonial’ section.
         2. Opening the links for Facebook and Instagram will present recent customers comments and photos.
@@ -165,19 +165,22 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   #### Frequent User Goals
 
-        1. As a Frequent User, I want to check to see if there are any newly added testimonials from recent customers.
+    1.  As a Frequent User, I want to check to see if there are any newly added testimonials from recent customers.
 
         1. The user would already be comfortable with the website layout and can easily scroll to the testimonial area or social links.
 
-    	2. As a Frequent User, I want to check to see if there are any new products offered.
+    2. As a Frequent User, I want to check to see if there are any new products offered.
 
         1. The user would already be comfortable with the website layout and can easily click the links to our cheeses page, from the nav bar or image on the homepage.
 
-	3. As a Frequent User, I want to contact the organisation with any further queries I may have.        
-	1. A fixed nav bar ensures the user can select the ‘Contact us’ page regardless of their position on site.
-        2. clickable images and links to the contact page exist on the homepage
-        3. There is a "Submit" button to the right hand side of the input field which is located close to the field and can easily be distinguished.
-	4. Directed to the social media sites for updates and further information.
+	  3. As a Frequent User, I want to contact the organisation with any further queries I may have. 
+
+	      1. A fixed nav bar ensures the user can select the Contact us page regardless of their position 
+          on site.
+        2. Clickable images and links to the contact page exist on the homepage.
+        3. There is a "Submit" button to the right hand side of the input field which is located close 
+            to the field and can easily be distinguished.
+	      4. Directed to the social media sites for updates and further information.
 
 ### Further Testing
 
