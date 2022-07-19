@@ -16,7 +16,7 @@ Designed for wedding organisers and party planners to find information of Cheeze
 -__Navigation Bar__-
 -   Featured across all 3 pages, the navigation bar offers easy transitions from the Homepage, cheese page and sign-ups.  Responsive as it uses the nav (burger) logo on small devices but expands out to a larger more traditional navigation on larger screens. It makes use of Bootstraps 'Offcanvas fixed navbar' component to ensure ease of use.
 
-![Nav Bar](images-readme/navbar-nddpj00-cheezebo.gitpod.io.jpeg)
+![Nav Bar](images-readme/nav-bar-readme.webp)
 
 
 - __The landing page image__
