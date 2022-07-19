@@ -213,7 +213,7 @@ body {
 
 
 #ourcheese-bg-img {
-    background: url("../images/waldemar-brandt-kPqaqug998Y-unsplash (1).webp") no-repeat;
+    background: url('/assets/images/ourcheese-hero.webp') no-repeat;
     background-repeat: no-repeat;
     background-size: cover;
     height: 400px;
@@ -333,7 +333,9 @@ body {
     display: block;
 }
 
-#event-info-box {
+
+
+#event-info {
     clear: right;
     margin: auto;
 }
