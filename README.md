@@ -78,8 +78,8 @@ Designed for wedding organisers and party planners to find information of Cheeze
 
 *   ### Wireframes
 
-    -   Home Page Wireframe – ("/images-readme/wireframe-indexhtml-homepage.webp")
+    -   ![Home Page Wireframe]<img src="./images-readme/wireframe-indexhtml-homepage.webp" height="150" width="100" >
 
-    -   Our Cheese page Wireframe - ( /images-readme/wireframe-ourcheese.webp)
+    -   ![Our Cheese page Wireframe]<img src="./images-readme/wireframe-indexhtml-homepage.webpimages-readme/wireframe-ourcheese.webp" height="150" width="100" >
 
-    -   Contact Us Page Wireframe – ( /images-readme/wireframe-contactus.webp)
+    -   ![Contact Us Page Wireframe]<img src="./images-readme/wireframe-contactus.webp" height="150" width="100" >
