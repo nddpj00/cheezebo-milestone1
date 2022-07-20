@@ -272,7 +272,7 @@ hr{
 
 
 #ourcheese-bg-img {
-    background: url('/assets/images/ourcheese-hero-opaque.webp');
+    background: url('../assets/images/ourcheese-hero-opaque.webp');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -351,7 +351,7 @@ hr{
 
 
 .contact-image {
-    background-image: url("/assets/images/enquiry-fireworksimage.webp");
+    background-image: url("../assets/images/enquiry-fireworksimage.webp");
     background-repeat: no-repeat;
     background-size: cover;
     height: 450px;
