@@ -1,11 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Kanit:ital,wght@1,600;1,700&family=Merriweather:ital,wght@0,400;0,700;1,400&family=Oswald:wght@300&family=Raleway:ital,wght@0,700;1,500&family=Roboto&display=swap');
 
 
-
 body {
     background-color: #F5F5F5;
 }
-
 
 
 /*---------------------------------------------Nav-Bar*/
@@ -16,21 +14,15 @@ body {
 
 .navbar-toggler {
     background-color: rgb(247, 172, 11);
-
-
 }
 
 .navbar-toggler:hover {
     background-color: rgb(232, 248, 10);
-
 }
-
 
 .nav-link:hover {
     color: rgb(232, 248, 10);
 }
-
-
 
 .navbar-brand {
     color: rgb(247, 172, 11);
@@ -38,13 +30,11 @@ body {
     font-size: 48px;
     font-weight: 400;
     text-align: center;
-
 }
 
 .navbar-brand:hover {
     color: rgb(232, 248, 10);
 }
-
 
 .nav-link {
     color: rgb(247, 172, 11);
@@ -54,7 +44,6 @@ body {
     color: rgb(247, 172, 11);
     font-family: Bangers, sans-serif;
     font-size: 40px;
-
 }
 
 #offcanvasNavbar {
@@ -76,7 +65,6 @@ body {
     justify-content: center;
     text-align: center;
     display:flex;
-    
 }
 
 
@@ -84,7 +72,6 @@ body {
     max-width: 75%;
     background-color: rgba(247, 172, 11, 0.7);
 }
-
 
 .hero-text h1 {
     font-family: Bangers, Raleway, sans-serif;
@@ -103,7 +90,6 @@ body {
     margin-right: 8px;
 }
 
-
 .about-us {
     font-family: raleway;
     font-size: medium;
@@ -112,14 +98,12 @@ body {
     margin-right: 17%;
 }
 
-
 .about-us h1 {
     padding-top: 35px;
     padding-bottom: 15px;
     color: rgb(247, 172, 11);
     font-size: 35px;
 }
-
 
 hr{
     border-radius: 5px;
@@ -132,14 +116,11 @@ hr{
 }
 
 
-
-
 /*---------------------------------------------Our-services*/
 
 .col-sm-4 a h2 {
     text-align: center;
     color: rgb(247, 172, 11);
-
 }
 
 .col-sm-4 {
@@ -150,9 +131,14 @@ hr{
     text-decoration: none;
 }
 
+.col-sm-4 h2:hover{
+    color: rgb(232, 248, 10)
+}
+
 .img-thumbnail {
     padding: 10px;
 }
+
 
 
 /*---------------------------------------------Testimonials*/
@@ -186,7 +172,6 @@ hr{
 .testimonials-heading h2{
     text-align: center;
     margin-top: 20px;
-    
 }
 
 /*---------------------------------------------footer*/
@@ -194,7 +179,6 @@ hr{
 
 
 .footer-bottom {
-
     margin: auto;
     width: 100%;
     background-color: #000000;
@@ -202,7 +186,6 @@ hr{
     left: 0;
     position: relative;
     min-height: 100%;
-
 }
 
 .logo-footer-text h2 {
@@ -238,7 +221,6 @@ hr{
 .footer-contact{
     color:rgb(247, 172, 11);
     margin-bottom: 0;
-    
 }
 
 .social-networks a:hover{
@@ -249,7 +231,6 @@ hr{
 .footer-contact{
     text-align: center;
     color: rgb(247, 172, 11);
-
 }
 
 .footer-contact a{
@@ -257,7 +238,6 @@ hr{
     text-decoration:none;
     font-family: bangers, sans-serif;
     font-size: 20px;
-    
 }
 
 .footer-contact a:hover{
@@ -267,13 +247,10 @@ hr{
 .footer-contact address{
     margin-bottom: 0;
     font-family: raleway, sans-serif;
-    
 }
 
 
-
 /*---------------------------------------------our-cheese-page--hero-image*/
-
 
 
 #ourcheese-bg-img {
@@ -319,7 +296,6 @@ hr{
 .hero-cover-text h2 {
     font-family: Raleway, sans-serif;
     font-weight: 600;
-    
 }
 
 
@@ -330,12 +306,10 @@ hr{
     margin-left: 10%;
     width: 170px;
     border-style: ridge;
-
 }
 
 .cheese-thumbnail {
     margin:  10%;
-
 }
 
 
@@ -352,7 +326,6 @@ hr{
 .cheese-intro-text h1 {
     padding-top: 35px;
     color: rgb(247, 172, 11);
-
 }
 
 .cheese-intro-text p{
@@ -360,13 +333,9 @@ hr{
     margin-left:15%;
     margin-right: 15%;
     padding: 10px;
-    
 }
 
-
 /*---------------------------------------------form*/
-
-
 
 .contact-image {
     background-image: url("../images/enquiry-fireworksimage.webp");
@@ -375,7 +344,6 @@ hr{
     height: 450px;
     width: 100%;
     opacity: 1;
-
 }
 
 .contact-img-text {
@@ -385,8 +353,6 @@ hr{
     text-align: center;
     font-family: Raleway, sans-serif;
     padding-top: 23px;
-    
-
 }
 
 .contact-img-text p{
@@ -425,7 +391,6 @@ hr{
     margin: auto;
     display: block;
 }
-
 
 
 #event-info {
