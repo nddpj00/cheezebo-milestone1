@@ -71,19 +71,19 @@ Designed for wedding organisers and party planners to find information of Cheeze
 
 -   ### Design
     -   #### Colour Scheme
-  -   The two main colours used are Black and Yellow/Orange rgba (247, 172, 11).
-    -   #### Typography
-        -   The Bangers font is used for the name of the company ‘Cheezebo’ which is in part its logo too.  Its used as a comic style font which helps bring a fun, modern feel to the company. The majority of the remaining font used is Raleway which compliments well with the comic style Bangers. Sans-serif is added as the back-up font in case Bangers or Raleway isnt supported.
-    -   #### Imagery
-        -   Large background hero images are used to allow users to quickly understand they’ve reached a cheese catering company and to offer an idea of the large variety that can be supplied.
+    -   The two main colours used are Black and Yellow/Orange rgba (247, 172, 11).
+-   #### Typography
+    -   The Bangers font is used for the name of the company. The remaining is Raleway with    a backup of sans-serif.
+-   #### Imagery
+        - Large background hero images are used to allow users to quickly understand they’ve reached a cheese catering company and to offer an idea of the large variety that can be supplied.
 
 *   ### Wireframes
 
-    -   ![Home Page Wireframe]<img src="./images-readme/wireframe-indexhtml-homepage.webp" height="200" width="150" >
+    -   ![Home Page Wireframe]<img src="./images-readme/wireframe-indexhtml-homepage.webp" height="300" width="200" >
 
-    -   ![Our Cheese page Wireframe]<img src="./images-readme/wireframe-ourcheese.webp" height="200" width="150" >
+    -   ![Our Cheese page Wireframe]<img src="./images-readme/wireframe-ourcheese.webp" height="300" width="200" >
 
-    -   ![Contact Us Page Wireframe]<img src="./images-readme/wireframe-contactus.webp" height="200" width="150" >
+    -   ![Contact Us Page Wireframe]<img src="./images-readme/wireframe-contactus.webp" height="300" width="200" >
 
 
 ## Features
@@ -126,8 +126,9 @@ Designed for wedding organisers and party planners to find information of Cheeze
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+-   [W3C Markup Validator](https://validator.w3.org/) - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fnddpj00.github.io%2Fcheezebo-milestone1%2F)<img src="images-readme/cheezebo_20-7-2022_195348_validator.w3.org.webp"  height="300" width="500">
+
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://jigsaw.w3.org/css-validator/validator#css)<img src="images-readme/cheezebo_20-7-2022_195728_jigsaw.w3.org.webp" height="300" width="500">
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -187,13 +188,13 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Further Testing
 
--   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
+-   The Website was tested on Google Chrome, Microsoft Edge and Safari browsers.
 -   The website was viewed on a variety of devices such as Desktop, Laptop, Pixel 6, iPhone 8 & iPhone XR.
 -   A large amount of testing was done to ensure that all pages were linking correctly.
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
 ### Known Bugs
-
+No known bugs
 
 
 ## Deployment
@@ -265,6 +266,7 @@ The testimonial quotes were created using Bootstrap 5 Card component.
 ### Media
 
 -   [Unsplash]( https://unsplash.com/)All photos used came from unsplash.
+-   [Font-Awesome](https://fontawesome.com/) Social media icons and down point icon
 
 ### Acknowledgements
 
