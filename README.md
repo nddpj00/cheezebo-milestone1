@@ -35,7 +35,8 @@ Designed for wedding organisers and party planners to find information of Cheeze
 - __The Footer__ 
 
   - The footer section includes links to the relevant social media sites for Cheezebo. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+  - The footer is valuable to the user as it encourages them to keep connected via social media.
+  - An Email address is also provided which contains a link to open up the users preferred email programme. Changes colour to identify its a link.
 
 - __Our Cheese page__
 
@@ -43,7 +44,7 @@ Designed for wedding organisers and party planners to find information of Cheeze
 
 - __The Contact Us Page__
 
-  - This page will allow the user to get in touch with Cheezbo. This could be to gain availability on event dates or to request a quote. The user will be asked to submit their full name, email address and type of event (later via radio buttons). There is also a textarea provided to allow further information.
+  - This page will allow the user to get in touch with Cheezbo. This could be to gain availability on event dates or to request a quote. The user will be asked to submit their full name, email address and type of event  (via radio buttons). There is also a textarea provided to allow further details to be included.
 
 
 ## User Experience (UX)
@@ -54,8 +55,8 @@ Designed for wedding organisers and party planners to find information of Cheeze
 
         1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
         2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
-        3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are
-	4. As a First Time Visitor, I want to be able to easily contact the organisation to enquire futher.
+        3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
+	    4. As a First Time Visitor, I want to be able to easily contact the organisation to make futher enquiries.
 
     -   #### Returning Visitor Goals
 
@@ -110,7 +111,7 @@ Designed for wedding organisers and party planners to find information of Cheeze
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 1. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
-1. [Pixelied:]( https://pixelied.com/features/make-jpg-transparent)
+1. [Pixelied:](https://pixelied.com/features/make-jpg-transparent)
     - Pixelied, was used to edit hero image photo.
 1. [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
@@ -118,6 +119,8 @@ Designed for wedding organisers and party planners to find information of Cheeze
     - Convertio was used to convert jpeg files to webp to compress images and offer faster loadtimes.
 1. [tinypng](https://tinypng.com)
     - Tinypng was also used to further compress the images used. Again to offer faster load times.
+1. [Font Awesome](https://fontawesome.com/)    
+    - Used to add social media links.
 
 ## Testing
 
