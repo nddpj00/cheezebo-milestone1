@@ -54,7 +54,7 @@ body {
 /*---------------------------------------------Hero image*/
 #hero-image {
 
-    background-image: url('../images/cheese-counter.webp');
+    background-image: url('../images/cheddar-thumbnail.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -254,7 +254,7 @@ hr{
 
 
 #ourcheese-bg-img {
-    background: url('../images/ourcheese-hero-opaque.webp');
+    background: url('../images/ourcheese-hero.jpeg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -338,7 +338,7 @@ hr{
 /*---------------------------------------------form*/
 
 .contact-image {
-    background-image: url("../images/enquiry-fireworksimage.webp");
+    background-image: url("../images/fireworks-contact.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 450px;
