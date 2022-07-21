@@ -145,10 +145,11 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
         1. The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
         2. The navigation bar is fixed to the top of the screen so the user won’t feel trapped as they get to the bottom of the page.
 
-    3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their following on social media to determine how trusted and known they are.
-        1. Once the new visitor has read the About Us section they will notice the testimonial section, letting them know of recent feedback received by customer..
+    3. As a First Time Visitor, I want to look for testimonials to understand   what their customers think of them and see if they are trusted. Find social media links to further determine their reputation.
+
+        1. Once the new visitor has read the About Us section they will notice the testimonial section, letting them know of recent feedback received by customers.
         2. The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
-        
+
 
 -   #### Returning Visitor Goals
 
@@ -177,14 +178,14 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
         1. The user would already be comfortable with the website layout and can easily click the links to our cheeses page, from the nav bar or image on the homepage.
 
-	  3. As a Frequent User, I want to contact the organisation with any further queries I may have. 
+	3. As a Frequent User, I want to contact the organisation with any further queries I may have. 
 
-	      1. A fixed nav bar ensures the user can select the Contact us page regardless of their position 
+	    1. A fixed nav bar ensures the user can select the Contact us page regardless of their position 
           on site.
         2. Clickable images and links to the contact page exist on the homepage.
         3. There is a "Submit" button to the right hand side of the input field which is located close 
             to the field and can easily be distinguished.
-	      4. Directed to the social media sites for updates and further information.
+	    4. Directed to the social media sites for updates and further information.
 
 ### Further Testing
 
@@ -192,6 +193,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   The website was viewed on a variety of devices such as Desktop, Laptop, Pixel 6, iPhone 8 & iPhone XR.
 -   A large amount of testing was done to ensure that all pages were linking correctly.
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+-   Orginally web-p images were used but found compatability issues with Safari browers running version 13 or older. Changed to JPG files and tested further. Fix worked.
 
 ### Known Bugs
 No known bugs
